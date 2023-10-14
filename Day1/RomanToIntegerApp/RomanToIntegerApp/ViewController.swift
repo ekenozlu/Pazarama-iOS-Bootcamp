@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         }
         
         romanNumberTF.placeholder = "Enter a Roman Number"
-        romanNumberTF.backgroundColor = .gray
+        romanNumberTF.backgroundColor = .lightGray
         romanNumberTF.textColor = .white
         romanNumberTF.tintColor = .white
         romanNumberTF.borderStyle = .roundedRect
