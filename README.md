@@ -3,7 +3,7 @@ For 4 weeks, I took a chance to particapate in this bootcamp provided by Codersp
 
 ## Bootcamp Contains (Chronological):
 1. Object and Protocol Oriented Programmic
-2. Layout, Constraints, UITableView
+2. Programmatic UI, Layout, Constraints, UITableView, UICollectionView, UICollectionViewFlowLayout
 
 During bootcamp we developed some applications and alghoritms with teaming up.
 ## During Course I developed:
