@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  URLSession Application
+//  MVVM Arch Demo
 //
 //  Created by Eken Özlü on 21.10.2023.
 //

@@ -7,102 +7,172 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		634731372AE3B0A90003E6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634731362AE3B0A90003E6D3 /* AppDelegate.swift */; };
-		634731392AE3B0A90003E6D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634731382AE3B0A90003E6D3 /* SceneDelegate.swift */; };
-		6347313B2AE3B0A90003E6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347313A2AE3B0A90003E6D3 /* ViewController.swift */; };
-		6347313E2AE3B0A90003E6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6347313C2AE3B0A90003E6D3 /* Main.storyboard */; };
-		634731402AE3B0AB0003E6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6347313F2AE3B0AB0003E6D3 /* Assets.xcassets */; };
-		634731432AE3B0AB0003E6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634731412AE3B0AB0003E6D3 /* LaunchScreen.storyboard */; };
+		6347316E2AE3C9440003E6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347316D2AE3C9440003E6D3 /* AppDelegate.swift */; };
+		634731722AE3C9440003E6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634731712AE3C9440003E6D3 /* ViewController.swift */; };
+		634731772AE3C9470003E6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634731762AE3C9470003E6D3 /* Assets.xcassets */; };
+		6347317A2AE3C9470003E6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634731782AE3C9470003E6D3 /* LaunchScreen.storyboard */; };
+		634731872AE3CA9C0003E6D3 /* CyptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634731862AE3CA9C0003E6D3 /* CyptoModel.swift */; };
+		638F09B72AE3E85C00E04C9B /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F09B62AE3E85C00E04C9B /* CryptoViewModel.swift */; };
+		638F09BE2AE3E88400E04C9B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 638F09BD2AE3E88400E04C9B /* RxCocoa */; };
+		638F09C52AE3E90E00E04C9B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F09C42AE3E90E00E04C9B /* WebService.swift */; };
+		638F09C82AE3F2DB00E04C9B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 638F09C72AE3F2DB00E04C9B /* RxSwift */; };
+		638F09CB2AE3F3FB00E04C9B /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F09CA2AE3F3FB00E04C9B /* CryptoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		634731332AE3B0A90003E6D3 /* URLSession Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		634731362AE3B0A90003E6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		634731382AE3B0A90003E6D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6347313A2AE3B0A90003E6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6347313D2AE3B0A90003E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6347313F2AE3B0AB0003E6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		634731422AE3B0AB0003E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		634731442AE3B0AB0003E6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6347316A2AE3C9440003E6D3 /* MVVM Arch Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Arch Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6347316D2AE3C9440003E6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		634731712AE3C9440003E6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		634731762AE3C9470003E6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634731792AE3C9470003E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6347317B2AE3C9470003E6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634731862AE3CA9C0003E6D3 /* CyptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyptoModel.swift; sourceTree = "<group>"; };
+		638F09B62AE3E85C00E04C9B /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		638F09C42AE3E90E00E04C9B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		638F09CA2AE3F3FB00E04C9B /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		634731302AE3B0A90003E6D3 /* Frameworks */ = {
+		634731672AE3C9440003E6D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638F09C82AE3F2DB00E04C9B /* RxSwift in Frameworks */,
+				638F09BE2AE3E88400E04C9B /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6347312A2AE3B0A90003E6D3 = {
+		634731612AE3C9440003E6D3 = {
 			isa = PBXGroup;
 			children = (
-				634731352AE3B0A90003E6D3 /* URLSession Application */,
-				634731342AE3B0A90003E6D3 /* Products */,
+				6347316C2AE3C9440003E6D3 /* MVVM Arch Demo */,
+				6347316B2AE3C9440003E6D3 /* Products */,
+				638F09C62AE3F2DB00E04C9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		634731342AE3B0A90003E6D3 /* Products */ = {
+		6347316B2AE3C9440003E6D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				634731332AE3B0A90003E6D3 /* URLSession Application.app */,
+				6347316A2AE3C9440003E6D3 /* MVVM Arch Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		634731352AE3B0A90003E6D3 /* URLSession Application */ = {
+		6347316C2AE3C9440003E6D3 /* MVVM Arch Demo */ = {
 			isa = PBXGroup;
 			children = (
-				634731362AE3B0A90003E6D3 /* AppDelegate.swift */,
-				634731382AE3B0A90003E6D3 /* SceneDelegate.swift */,
-				6347313A2AE3B0A90003E6D3 /* ViewController.swift */,
-				6347313C2AE3B0A90003E6D3 /* Main.storyboard */,
-				6347313F2AE3B0AB0003E6D3 /* Assets.xcassets */,
-				634731412AE3B0AB0003E6D3 /* LaunchScreen.storyboard */,
-				634731442AE3B0AB0003E6D3 /* Info.plist */,
+				638F09C92AE3F3E700E04C9B /* Cells */,
+				638F09C32AE3E90300E04C9B /* Service */,
+				634731842AE3CA780003E6D3 /* Resources */,
+				634731832AE3CA700003E6D3 /* ViewModels */,
+				634731822AE3CA6C0003E6D3 /* Views */,
+				634731812AE3CA640003E6D3 /* Models */,
+				6347317B2AE3C9470003E6D3 /* Info.plist */,
 			);
-			path = "URLSession Application";
+			path = "MVVM Arch Demo";
+			sourceTree = "<group>";
+		};
+		634731812AE3CA640003E6D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				634731862AE3CA9C0003E6D3 /* CyptoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		634731822AE3CA6C0003E6D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				634731712AE3C9440003E6D3 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		634731832AE3CA700003E6D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				638F09B62AE3E85C00E04C9B /* CryptoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		634731842AE3CA780003E6D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6347316D2AE3C9440003E6D3 /* AppDelegate.swift */,
+				634731762AE3C9470003E6D3 /* Assets.xcassets */,
+				634731782AE3C9470003E6D3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		638F09C32AE3E90300E04C9B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				638F09C42AE3E90E00E04C9B /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		638F09C62AE3F2DB00E04C9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		638F09C92AE3F3E700E04C9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				638F09CA2AE3F3FB00E04C9B /* CryptoCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		634731322AE3B0A90003E6D3 /* URLSession Application */ = {
+		634731692AE3C9440003E6D3 /* MVVM Arch Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 634731472AE3B0AB0003E6D3 /* Build configuration list for PBXNativeTarget "URLSession Application" */;
+			buildConfigurationList = 6347317E2AE3C9470003E6D3 /* Build configuration list for PBXNativeTarget "MVVM Arch Demo" */;
 			buildPhases = (
-				6347312F2AE3B0A90003E6D3 /* Sources */,
-				634731302AE3B0A90003E6D3 /* Frameworks */,
-				634731312AE3B0A90003E6D3 /* Resources */,
+				634731662AE3C9440003E6D3 /* Sources */,
+				634731672AE3C9440003E6D3 /* Frameworks */,
+				634731682AE3C9440003E6D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "URLSession Application";
-			productName = "URLSession Application";
-			productReference = 634731332AE3B0A90003E6D3 /* URLSession Application.app */;
+			name = "MVVM Arch Demo";
+			packageProductDependencies = (
+				638F09BD2AE3E88400E04C9B /* RxCocoa */,
+				638F09C72AE3F2DB00E04C9B /* RxSwift */,
+			);
+			productName = "MVVM Arch Demo";
+			productReference = 6347316A2AE3C9440003E6D3 /* MVVM Arch Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6347312B2AE3B0A90003E6D3 /* Project object */ = {
+		634731622AE3C9440003E6D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					634731322AE3B0A90003E6D3 = {
+					634731692AE3C9440003E6D3 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 6347312E2AE3B0A90003E6D3 /* Build configuration list for PBXProject "URLSession Application" */;
+			buildConfigurationList = 634731652AE3C9440003E6D3 /* Build configuration list for PBXProject "MVVM Arch Demo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +180,52 @@
 				en,
 				Base,
 			);
-			mainGroup = 6347312A2AE3B0A90003E6D3;
-			productRefGroup = 634731342AE3B0A90003E6D3 /* Products */;
+			mainGroup = 634731612AE3C9440003E6D3;
+			packageReferences = (
+				638F09B82AE3E88300E04C9B /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = 6347316B2AE3C9440003E6D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				634731322AE3B0A90003E6D3 /* URLSession Application */,
+				634731692AE3C9440003E6D3 /* MVVM Arch Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		634731312AE3B0A90003E6D3 /* Resources */ = {
+		634731682AE3C9440003E6D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634731432AE3B0AB0003E6D3 /* LaunchScreen.storyboard in Resources */,
-				634731402AE3B0AB0003E6D3 /* Assets.xcassets in Resources */,
-				6347313E2AE3B0A90003E6D3 /* Main.storyboard in Resources */,
+				6347317A2AE3C9470003E6D3 /* LaunchScreen.storyboard in Resources */,
+				634731772AE3C9470003E6D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6347312F2AE3B0A90003E6D3 /* Sources */ = {
+		634731662AE3C9440003E6D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6347313B2AE3B0A90003E6D3 /* ViewController.swift in Sources */,
-				634731372AE3B0A90003E6D3 /* AppDelegate.swift in Sources */,
-				634731392AE3B0A90003E6D3 /* SceneDelegate.swift in Sources */,
+				638F09C52AE3E90E00E04C9B /* WebService.swift in Sources */,
+				634731722AE3C9440003E6D3 /* ViewController.swift in Sources */,
+				638F09CB2AE3F3FB00E04C9B /* CryptoCell.swift in Sources */,
+				6347316E2AE3C9440003E6D3 /* AppDelegate.swift in Sources */,
+				634731872AE3CA9C0003E6D3 /* CyptoModel.swift in Sources */,
+				638F09B72AE3E85C00E04C9B /* CryptoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6347313C2AE3B0A90003E6D3 /* Main.storyboard */ = {
+		634731782AE3C9470003E6D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6347313D2AE3B0A90003E6D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		634731412AE3B0AB0003E6D3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				634731422AE3B0AB0003E6D3 /* Base */,
+				634731792AE3C9470003E6D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +233,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		634731452AE3B0AB0003E6D3 /* Debug */ = {
+		6347317C2AE3C9470003E6D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		634731462AE3B0AB0003E6D3 /* Release */ = {
+		6347317D2AE3C9470003E6D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +352,7 @@
 			};
 			name = Release;
 		};
-		634731482AE3B0AB0003E6D3 /* Debug */ = {
+		6347317F2AE3C9470003E6D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,10 +361,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 637FC6BUKX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "URLSession Application/Info.plist";
+				INFOPLIST_FILE = "MVVM Arch Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ekenozlu.URLSession-Application";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekenozlu.MVVM-Arch-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		634731492AE3B0AB0003E6D3 /* Release */ = {
+		634731802AE3C9470003E6D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,10 +388,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 637FC6BUKX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "URLSession Application/Info.plist";
+				INFOPLIST_FILE = "MVVM Arch Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ekenozlu.URLSession-Application";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ekenozlu.MVVM-Arch-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,25 +409,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6347312E2AE3B0A90003E6D3 /* Build configuration list for PBXProject "URLSession Application" */ = {
+		634731652AE3C9440003E6D3 /* Build configuration list for PBXProject "MVVM Arch Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				634731452AE3B0AB0003E6D3 /* Debug */,
-				634731462AE3B0AB0003E6D3 /* Release */,
+				6347317C2AE3C9470003E6D3 /* Debug */,
+				6347317D2AE3C9470003E6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		634731472AE3B0AB0003E6D3 /* Build configuration list for PBXNativeTarget "URLSession Application" */ = {
+		6347317E2AE3C9470003E6D3 /* Build configuration list for PBXNativeTarget "MVVM Arch Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				634731482AE3B0AB0003E6D3 /* Debug */,
-				634731492AE3B0AB0003E6D3 /* Release */,
+				6347317F2AE3C9470003E6D3 /* Debug */,
+				634731802AE3C9470003E6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		638F09B82AE3E88300E04C9B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		638F09BD2AE3E88400E04C9B /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 638F09B82AE3E88300E04C9B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		638F09C72AE3F2DB00E04C9B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 638F09B82AE3E88300E04C9B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 6347312B2AE3B0A90003E6D3 /* Project object */;
+	rootObject = 634731622AE3C9440003E6D3 /* Project object */;
 }
