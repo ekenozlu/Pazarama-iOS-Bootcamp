@@ -26,3 +26,10 @@ During bootcamp we developed some applications and alghoritms with teaming up or
 | Screen | Screen |
 | ------ | ------ |
 | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day3/URLSession%20Demo/GitImages/image1.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day3/URLSession%20Demo/GitImages/image2.png "Screen") |
+
+4. Crypto Currency Application (MVVM, RxSwift, URLSession) [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4/MVVM%20Arch%20Demo)
+
+| Screen | Indicator Screen |
+| ------ | ---------------- |
+| ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day4/MVVM%20Arch%20Demo/GitImages/image1.png "Screen") | ![Indicator Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day4/MVVM%20Arch%20Demo/GitImages/image2.png "Indicator Screen") |
+
