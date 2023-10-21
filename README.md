@@ -17,9 +17,9 @@ During bootcamp we developed some applications and alghoritms with teaming up or
 
 2. Homework1: Mock Food Delivery App with Static Data [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Homework1)
 
-| Screen | Screen | Screen |
-| ------ | ------ | ------ |
-| ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen1.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen2.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen3.png "Screen") |
+| Screen | Screen | Screen | Screen Record |
+| ------ | ------ | ------ | ------------- |
+| ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen1.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen2.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen3.png "Screen") | ![Screen Record](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screenGif.gif "Screen Record") |
 
 3. Basic URLSession application for introduction [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day3/URLSession%20Demo)
 
