@@ -1,11 +1,12 @@
 # Pazarama-iOS-Bootcamp
-For 4 weeks, I took a chance to particapate in this bootcamp provided by Coderspace and Pazarama. With the instructions of Atıl Samancıoğlu I followed a learning path which is very essential and useful for being a better iOS Developer and understanding the Pazarama Culture.
+For 4 weeks(weekends), I took a chance to particapate in this bootcamp provided by Coderspace and Pazarama. With the instructions of Atıl Samancıoğlu I followed a learning path which is very essential and useful for being a better iOS Developer and understanding the Pazarama Culture.
 
 ## Bootcamp Covers:
 1. [Day1:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day1) Object and Protocol Oriented Programmic
 2. [Day2:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day2) Programmatic UI, Layout, Constraints, UITableView, UICollectionView, UICollectionViewFlowLayout
 3. [Day3:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day3) CocoaPods, Firebase(Analytics, Crashlytics), URLSession(Intro)
 4. [Day4:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4) Struct properties, Closures, URLSession(Advanced), MVVM Architecture
+5. [Day5:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day5) SwiftUI Introduction (UI Elements, Property Wrappers)
 
 During bootcamp we developed some applications and alghoritms with teaming up or alone.
 ## During Course I developed:
