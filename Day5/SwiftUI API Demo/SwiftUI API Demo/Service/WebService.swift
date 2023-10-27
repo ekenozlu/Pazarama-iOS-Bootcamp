@@ -16,12 +16,18 @@ enum CryptoError : Error {
 class WebService {
     
     
+    public func downloadCurrenciesAsync(url: URL) async throws -> [CryptoModel] {
+        let (data,_) = try await URLSession.shared.data(from: url)
+        let currencyList = try? JSONDecoder().decode([CryptoModel].self, from: data)
+        return currencyList ?? []
+    }
+    
     public func downloadCurrencies(url: URL, completion: @escaping (Result<[CryptoModel],CryptoError>) -> () ) {
         URLSession.shared.dataTask(with: url) { data, response, error in
             if let data = data, error == nil {
                 do {
-                    let response = try JSONDecoder().decode([CryptoModel].self, from: data)
-                    completion(.success(response))
+                    let currencyList = try JSONDecoder().decode([CryptoModel].self, from: data)
+                    completion(.success(currencyList))
                 } catch {
                     completion(.failure(.badUrl))
                 }

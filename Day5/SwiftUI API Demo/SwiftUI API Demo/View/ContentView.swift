@@ -29,9 +29,9 @@ struct ContentView: View {
                         .foregroundStyle(.black)
                 }
             }.navigationTitle("Crpyto SwiftUI").navigationBarTitleDisplayMode(.inline)
-        }.onAppear(perform: {
-            cryptoListViewModel.downloadCurrencies(url: URL(string: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/master/crypto.json")!)
-        })
+        }.task {
+            await cryptoListViewModel.downloadCurrenciesAsync(url: URL(string: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/master/crypto.json")!)
+        }
     }
 }
 

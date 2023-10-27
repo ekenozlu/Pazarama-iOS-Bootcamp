@@ -62,7 +62,6 @@
 				638BF2352AEBCDF00046DCCA /* Service */,
 				638BF2342AEBCDE80046DCCA /* Model */,
 				638BF2262AEBCDB50046DCCA /* SwiftUI_API_DemoApp.swift */,
-				638BF2282AEBCDB50046DCCA /* ContentView.swift */,
 				638BF22A2AEBCDB70046DCCA /* Assets.xcassets */,
 				638BF22C2AEBCDB70046DCCA /* Preview Content */,
 			);
@@ -96,6 +95,7 @@
 		638BF2362AEBCDF80046DCCA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				638BF2282AEBCDB50046DCCA /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
