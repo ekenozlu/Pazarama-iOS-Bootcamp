@@ -14,23 +14,23 @@ During bootcamp we developed some applications and alghoritms with teaming up or
 
 | Main Screen | Favourite Screen | Convert Screen | Favourite Screen | Error Screen |
 | ----------- | ---------------- | -------------- | ---------------- | ------------ |
-| ![Main Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image1.png "Main Screen") | ![Favourite Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image2.png "Favourite Screen") | ![Convert Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image3.png "Convert Screen") | ![Favourite Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image4.png "Favourite Screen") | ![Error Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image5.png "Error Screen") |
+| <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image1.png" width="150" alt="Main Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image2.png" width="150" alt="Favourite Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image3.png" width="150" alt="Convert Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image4.png" width="150" alt="Favourite Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day1/RomanToIntegerApp/GitImages/image5.png" width="150" alt="Error Screen"> |
 
 2. Homework1: Mock Food Delivery App with Static Data [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Homework1)
 
 | Screen | Screen | Screen | Screen Record |
 | ------ | ------ | ------ | ------------- |
-| ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen1.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen2.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen3.png "Screen") | ![Screen Record](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screenGif.gif "Screen Record") |
+| <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen1.png" width="150" alt="Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen1.png" width="150" alt="Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screen1.png" width="150" alt="Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Homework1/GitImages/screenGif.gif" width="150" alt="ScreenRecord">
 
 3. Basic URLSession application for introduction [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day3/URLSession%20Demo)
 
 | Screen | Screen |
 | ------ | ------ |
-| ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day3/URLSession%20Demo/GitImages/image1.png "Screen") | ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day3/URLSession%20Demo/GitImages/image2.png "Screen") |
+| <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day3/URLSession%20Demo/GitImages/image1.png" width="150" alt="Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day3/URLSession%20Demo/GitImages/image2.png" width="150" alt="Screen">
 
 4. Crypto Currency Application (MVVM, RxSwift, URLSession) [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4/MVVM%20Arch%20Demo)
 
 | Screen | Indicator Screen |
 | ------ | ---------------- |
-| ![Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day4/MVVM%20Arch%20Demo/GitImages/image1.png "Screen") | ![Indicator Screen](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day4/MVVM%20Arch%20Demo/GitImages/image2.png "Indicator Screen") |
+| <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day4/MVVM%20Arch%20Demo/GitImages/image1.png" width="150" alt="Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day4/MVVM%20Arch%20Demo/GitImages/image2.png" width="150" alt="Indicator Screen">
 
