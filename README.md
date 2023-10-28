@@ -7,6 +7,7 @@ For 4 weeks(weekends), I took a chance to particapate in this bootcamp provided 
 3. [Day3:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day3) CocoaPods, Firebase(Analytics, Crashlytics), URLSession(Intro)
 4. [Day4:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4) Struct properties, Closures, URLSession(Advanced), MVVM Architecture
 5. [Day5:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day5) SwiftUI Introduction (UI Elements, Property Wrappers, MVVM, Observables)
+6. [Day6:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day6) Unit Tests
 
 During bootcamp we developed some applications and alghoritms with teaming up or alone.
 ## During Course I developed:
