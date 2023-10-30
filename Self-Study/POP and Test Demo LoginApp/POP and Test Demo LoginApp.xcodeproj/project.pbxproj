@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		63DA17942AF03E680001D053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17932AF03E680001D053 /* AppDelegate.swift */; };
-		63DA17962AF03E680001D053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17952AF03E680001D053 /* SceneDelegate.swift */; };
-		63DA17982AF03E680001D053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17972AF03E680001D053 /* ViewController.swift */; };
-		63DA179B2AF03E680001D053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DA17992AF03E680001D053 /* Main.storyboard */; };
+		63DA17982AF03E680001D053 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17972AF03E680001D053 /* RootViewController.swift */; };
 		63DA179D2AF03E6B0001D053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DA179C2AF03E6B0001D053 /* Assets.xcassets */; };
 		63DA17A02AF03E6B0001D053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DA179E2AF03E6B0001D053 /* LaunchScreen.storyboard */; };
 		63DA17AB2AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17AA2AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppTests.swift */; };
 		63DA17B52AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17B42AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITests.swift */; };
 		63DA17B72AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17B62AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITestsLaunchTests.swift */; };
+		63DA17C62AF03F590001D053 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17C52AF03F590001D053 /* LoginViewController.swift */; };
+		63DA17C82AF03F750001D053 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17C72AF03F750001D053 /* MainViewController.swift */; };
+		63DA17CC2AF0409B0001D053 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17CB2AF0409B0001D053 /* RootViewModel.swift */; };
+		63DA17CE2AF040E60001D053 /* RootViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17CD2AF040E60001D053 /* RootViewModelProtocol.swift */; };
+		63DA17D12AF043780001D053 /* LoginStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17D02AF043780001D053 /* LoginStorageService.swift */; };
+		63DA17D32AF043C10001D053 /* LoginStorageServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA17D22AF043C10001D053 /* LoginStorageServiceImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,7 @@
 /* Begin PBXFileReference section */
 		63DA17902AF03E680001D053 /* POP and Test Demo LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POP and Test Demo LoginApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA17932AF03E680001D053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63DA17952AF03E680001D053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63DA17972AF03E680001D053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63DA179A2AF03E680001D053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DA17972AF03E680001D053 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		63DA179C2AF03E6B0001D053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63DA179F2AF03E6B0001D053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63DA17A12AF03E6B0001D053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		63DA17B02AF03E6B0001D053 /* POP and Test Demo LoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP and Test Demo LoginAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA17B42AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP_and_Test_Demo_LoginAppUITests.swift; sourceTree = "<group>"; };
 		63DA17B62AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP_and_Test_Demo_LoginAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63DA17C52AF03F590001D053 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		63DA17C72AF03F750001D053 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63DA17CB2AF0409B0001D053 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		63DA17CD2AF040E60001D053 /* RootViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModelProtocol.swift; sourceTree = "<group>"; };
+		63DA17D02AF043780001D053 /* LoginStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStorageService.swift; sourceTree = "<group>"; };
+		63DA17D22AF043C10001D053 /* LoginStorageServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStorageServiceImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +107,10 @@
 		63DA17922AF03E680001D053 /* POP and Test Demo LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				63DA17932AF03E680001D053 /* AppDelegate.swift */,
-				63DA17952AF03E680001D053 /* SceneDelegate.swift */,
-				63DA17972AF03E680001D053 /* ViewController.swift */,
-				63DA17992AF03E680001D053 /* Main.storyboard */,
-				63DA179C2AF03E6B0001D053 /* Assets.xcassets */,
-				63DA179E2AF03E6B0001D053 /* LaunchScreen.storyboard */,
+				63DA17CF2AF043640001D053 /* Service */,
+				63DA17CA2AF040870001D053 /* ViewModels */,
+				63DA17C42AF03F3B0001D053 /* Resources */,
+				63DA17C32AF03F230001D053 /* Views */,
 				63DA17A12AF03E6B0001D053 /* Info.plist */,
 			);
 			path = "POP and Test Demo LoginApp";
@@ -125,6 +131,44 @@
 				63DA17B62AF03E6B0001D053 /* POP_and_Test_Demo_LoginAppUITestsLaunchTests.swift */,
 			);
 			path = "POP and Test Demo LoginAppUITests";
+			sourceTree = "<group>";
+		};
+		63DA17C32AF03F230001D053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63DA17972AF03E680001D053 /* RootViewController.swift */,
+				63DA17C52AF03F590001D053 /* LoginViewController.swift */,
+				63DA17C72AF03F750001D053 /* MainViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63DA17C42AF03F3B0001D053 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63DA17932AF03E680001D053 /* AppDelegate.swift */,
+				63DA179C2AF03E6B0001D053 /* Assets.xcassets */,
+				63DA179E2AF03E6B0001D053 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63DA17CA2AF040870001D053 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				63DA17CB2AF0409B0001D053 /* RootViewModel.swift */,
+				63DA17CD2AF040E60001D053 /* RootViewModelProtocol.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		63DA17CF2AF043640001D053 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				63DA17D02AF043780001D053 /* LoginStorageService.swift */,
+				63DA17D22AF043C10001D053 /* LoginStorageServiceImpl.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +277,6 @@
 			files = (
 				63DA17A02AF03E6B0001D053 /* LaunchScreen.storyboard in Resources */,
 				63DA179D2AF03E6B0001D053 /* Assets.xcassets in Resources */,
-				63DA179B2AF03E680001D053 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DA17982AF03E680001D053 /* ViewController.swift in Sources */,
+				63DA17CE2AF040E60001D053 /* RootViewModelProtocol.swift in Sources */,
+				63DA17D32AF043C10001D053 /* LoginStorageServiceImpl.swift in Sources */,
+				63DA17CC2AF0409B0001D053 /* RootViewModel.swift in Sources */,
+				63DA17C62AF03F590001D053 /* LoginViewController.swift in Sources */,
+				63DA17982AF03E680001D053 /* RootViewController.swift in Sources */,
 				63DA17942AF03E680001D053 /* AppDelegate.swift in Sources */,
-				63DA17962AF03E680001D053 /* SceneDelegate.swift in Sources */,
+				63DA17D12AF043780001D053 /* LoginStorageService.swift in Sources */,
+				63DA17C82AF03F750001D053 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63DA17992AF03E680001D053 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63DA179A2AF03E680001D053 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63DA179E2AF03E6B0001D053 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +487,6 @@
 				INFOPLIST_FILE = "POP and Test Demo LoginApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +514,6 @@
 				INFOPLIST_FILE = "POP and Test Demo LoginApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
