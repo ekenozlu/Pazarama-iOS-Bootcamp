@@ -2,12 +2,13 @@
 For 4 weeks(weekends), I took a chance to particapate in this bootcamp provided by Coderspace and Pazarama. With the instructions of Atıl Samancıoğlu I followed a learning path which is very essential and useful for being a better iOS Developer and understanding the Pazarama Culture.
 
 ## Bootcamp Covers:
-1. [Day1:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day1) Object and Protocol Oriented Programming
-2. [Day2:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day2) Programmatic UI, Layout, Constraints, UITableView, UICollectionView, UICollectionViewFlowLayout
-3. [Day3:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day3) CocoaPods, Firebase(Analytics, Crashlytics), URLSession(Intro)
-4. [Day4:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4) Struct properties, Closures, URLSession(Advanced), MVVM Architecture
-5. [Day5:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day5) SwiftUI Introduction (UI Elements, Property Wrappers, MVVM, Observables)
-6. [Day6:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day6) Protocol Oriented Programming (Dependency Inejction), Unit Tests
+1. [Day 1:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day1) Object and Protocol Oriented Programming
+2. [Day 2:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day2) Programmatic UI, Layout, Constraints, UITableView, UICollectionView, UICollectionViewFlowLayout
+3. [Day 3:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day3) CocoaPods, Firebase(Analytics, Crashlytics), URLSession(Intro)
+4. [Day 4:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4) Struct properties, Closures, URLSession(Advanced), MVVM Architecture
+5. [Day 5:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day5) SwiftUI Introduction (UI Elements, Property Wrappers, MVVM, Observables)
+6. [Day 6:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day6) Protocol Oriented Programming (Dependency Inejction), Unit Tests
+7. [Group Project:](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-PokeApp) Pokemon App with PoP and MVVM Architecture.
 
 During bootcamp we developed some applications and alghoritms with teaming up or alone.
 ## During Course I developed:
@@ -41,3 +42,8 @@ During bootcamp we developed some applications and alghoritms with teaming up or
 | -------------------- | ------------- | ------------- |
 | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day5/SwiftUI%20LandmarkBool/GitImages/image1.png" width="200" alt="Landmark Book Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day5/SwiftUI%20LandmarkBool/GitImages/image2.png" width="200" alt="Landmark Book Detail Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/blob/main/Day5/SwiftUI%20API%20Demo/GitImages/image1.png" width="200" alt="Crypto Screen">
 
+6. Pokemon App (MVVM, POP, Unit Tests) [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-PokeApp)
+
+| Main Screen | Filter Screen | Serch Screen | Detail Screen |
+| ----------- | ------------- | ------------ | ------------- |
+| <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen1.png" width="200" alt="Main Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen2.png" width="200" alt="Filter Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen3.png" width="200" alt="Serch Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen4.png" width="200" alt="Detail Screen">
