@@ -25,8 +25,6 @@ class UserViewModel {
                 self?.delegate?.updateView(name: "No User", username: "", email: "")
             }
         }
-        
-        
     }
     
     

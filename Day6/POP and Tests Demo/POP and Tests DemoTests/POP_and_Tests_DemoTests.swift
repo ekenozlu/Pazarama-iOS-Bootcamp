@@ -59,3 +59,5 @@ class MockUserViewModelProtocol : UserViewModelProtocol {
         updateViewArray.append((name,username,email))
     }
 }
+
+
