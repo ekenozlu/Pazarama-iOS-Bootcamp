@@ -8,7 +8,7 @@ For 4 weeks(weekends), I took a chance to particapate in this bootcamp provided 
 4. [Day 4:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day4) Struct properties, Closures, URLSession(Advanced), MVVM Architecture
 5. [Day 5:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day5) SwiftUI Introduction (UI Elements, Property Wrappers, MVVM, Observables)
 6. [Day 6:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day6) Protocol Oriented Programming (Dependency Inejction), Unit Tests
-7. [Day 7&8:](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-PokeApp) Pokemon App with PoP and MVVM Architecture.
+7. [Day 7&8:](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-PokeApp) Group Project: Pokemon App with PoP and MVVM Architecture.
 
 During bootcamp we developed some applications and alghoritms with teaming up or alone.
 ## During Course I developed:
