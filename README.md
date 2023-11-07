@@ -9,8 +9,10 @@ For 4 weeks(weekends), I took a chance to particapate in this bootcamp provided 
 5. [Day 5:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day5) SwiftUI Introduction (UI Elements, Property Wrappers, MVVM, Observables)
 6. [Day 6:](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day6) Protocol Oriented Programming (Dependency Inejction), Unit Tests
 7. [Group Project:](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-PokeApp) Pokemon App with PoP and MVVM Architecture.
+8. [Individual Final Project:](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-MovieApp) Movie App with PoP and MVVM Architecture. Unit Tests
 
-During bootcamp we developed some applications and alghoritms with teaming up or alone.
+During bootcamp I developed some applications and alghoritms with teaming up or alone.
+
 ## During Course I developed:
 1. Roman Numbers to Arabic Numbers Conversion Application [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Bootcamp/tree/main/Day1/RomanToIntegerApp)
 
@@ -47,3 +49,9 @@ During bootcamp we developed some applications and alghoritms with teaming up or
 | Main Screen | Filter Screen | Serch Screen | Detail Screen |
 | ----------- | ------------- | ------------ | ------------- |
 | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen1.png" width="200" alt="Main Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen2.png" width="200" alt="Filter Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen3.png" width="200" alt="Serch Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-PokeApp/GitImages/screen4.png" width="200" alt="Detail Screen">
+
+7. Movie App (MVVM, POP, Unit Tests, UI Tests) [(Link)](https://github.com/ekenozlu/Pazarama-iOS-Homeworks/tree/main/Pazarama-MovieApp)
+
+| Main Screen | Searched Screen | Detail Screen | Error Screen |
+| ----------- | --------------- | ------------- | ------------ |
+| <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-MovieApp/GitImages/screen1.png" width="200" alt="Main Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-MovieApp/GitImages/screen2.png" width="200" alt="Searched Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-MovieApp/GitImages/screen3.png" width="200" alt="Detail Screen"> | <img src="https://github.com/ekenozlu/Pazarama-iOS-Homeworks/blob/main/Pazarama-MovieApp/GitImages/screen4.png" width="200" alt="Error Screen">
